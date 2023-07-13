@@ -1,3 +1,5 @@
+import './styles/index.scss'
+
 
 function Index() {
   return (
