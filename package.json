@@ -17,6 +17,7 @@
     "react-scripts": "5.0.1",
     "react-transition-group": "^4.4.5",
     "redux": "^4.2.1",
+    "sass": "^1.63.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
