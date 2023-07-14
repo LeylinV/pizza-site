@@ -1,6 +1,6 @@
 import React from 'react';
-import BrandedNavbar from "../../../../shared/ui/branded-navbar/BrandedNavbar";
-import {brandName, brandHref} from "./vars";
+import BrandedNavbar from "../../../shared/ui/branded-navbar/BrandedNavbar";
+import {brandName, brandHref} from "../vars";
 
 const BrandedHeader = () => {
     return (

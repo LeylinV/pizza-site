@@ -1,5 +1,5 @@
 import React from 'react';
-import BrandedHeader from "../../widgets/TopHeader/model/BrandedHeader/BrandedHeader";
+import BrandedHeader from "../../widgets/BrandedHeader/model/BrandedHeader";
 
 const PageStore = () => {
     return (

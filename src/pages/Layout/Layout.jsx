@@ -1,6 +1,6 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import TopHeader from "../../widgets/TopHeader/model/TopHeader/TopHeader";
+import TopHeader from "../../widgets/TopHeader/model/TopHeader";
 
 const Layout = () => {
     return (
