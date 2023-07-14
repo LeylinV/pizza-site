@@ -1,5 +1,6 @@
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Layout from "../../pages/Layout/Layout";
+import PageStore from "../../pages/PageStore/PageStore";
 
 const WithRouter = () => {
 
@@ -7,7 +8,7 @@ const WithRouter = () => {
         <BrowserRouter>
             <Routes>
                 <Route path='/' element={<Layout/>}>
-                    <Route index element={<div><h1>Старт</h1></div>} />
+                    <Route index element={<PageStore />} />
                 </Route>
             </Routes>
         </BrowserRouter>

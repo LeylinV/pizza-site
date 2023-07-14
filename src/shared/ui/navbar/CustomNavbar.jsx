@@ -3,7 +3,7 @@ import {Nav} from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 
 
-const Navbar = ({navs}) => {
+const CustomNavbar = ({navs}) => {
     const navigate = useNavigate()
 
     if (navs.length === 0){
@@ -12,11 +12,10 @@ const Navbar = ({navs}) => {
     return (
 
         <Nav
-            as="ul"
             onSelect={(selectedKey) => navigate(selectedKey)}
         >
             {navs.map(nav =>
-                <Nav.Item as="li">
+                <Nav.Item key={nav.eventKey}>
                     <Nav.Link eventKey={nav.eventKey}>{nav.title}</Nav.Link>
                 </Nav.Item>
             )}
@@ -24,4 +23,4 @@ const Navbar = ({navs}) => {
     );
 };
 
-export default Navbar;
+export default CustomNavbar;
