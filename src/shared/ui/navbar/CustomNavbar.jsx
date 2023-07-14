@@ -1,12 +1,13 @@
 import React from 'react';
 import {Nav} from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
+import {isAvialable} from "../../utils/isAvialable";
 
 
 const CustomNavbar = ({navs}) => {
     const navigate = useNavigate()
 
-    if (navs.length === 0){
+    if (!(isAvialable(navs))){
         return <></>
     }
     return (
