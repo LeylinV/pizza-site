@@ -1,12 +1,13 @@
-import './styles/index.scss'
-import WithRouter from './providers/WithRouter'
+import {RouterProvider} from "react-router-dom";
 
-function Index() {
-  return (
-    <div className="App">
-      <WithRouter />
-    </div>
-  );
+import router from "./router";
+
+import './styles/index.scss'
+
+function App() {
+    return (
+        <RouterProvider router={router}/>
+    );
 }
 
-export default Index;
+export default App;
