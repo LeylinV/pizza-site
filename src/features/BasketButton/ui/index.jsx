@@ -1,5 +1,4 @@
-import React from 'react';
-import CustomButton from "../../shared/ui/button/CustomButton";
+import {CustomButton} from "shared/ui/button";
 
 const BasketButton = ({...props}) => {
     return (
@@ -7,4 +6,4 @@ const BasketButton = ({...props}) => {
     );
 };
 
-export default BasketButton;
+export {BasketButton};

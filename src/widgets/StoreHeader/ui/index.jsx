@@ -1,9 +1,11 @@
-import React from 'react';
 import {Container} from "react-bootstrap";
-import CustomNavbar from "../../../shared/ui/navbar/CustomNavbar";
-import BasketButton from "../../../features/BasketButton/BasketButton";
+
+import {CustomNavbar} from "shared/ui/navbar";
+import {BasketButton} from "features/BasketButton";
+
+import {getAnchors} from "../lib/getAnchors";
+
 import {categories} from "../vars";
-import {getAnchors} from "../utils/getAnchors";
 
 const StoreHeader = () => {
     const categoriesWithAnchors = getAnchors(categories, 'value')
@@ -16,4 +18,4 @@ const StoreHeader = () => {
     );
 };
 
-export default StoreHeader;
+export {StoreHeader};

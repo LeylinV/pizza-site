@@ -1,4 +1,3 @@
-import React from 'react';
 import {Button} from "react-bootstrap";
 
 const CustomButton = ({children, ...props}) => {
@@ -7,4 +6,4 @@ const CustomButton = ({children, ...props}) => {
     );
 };
 
-export default CustomButton;
+export {CustomButton};

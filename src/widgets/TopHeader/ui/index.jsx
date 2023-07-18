@@ -1,7 +1,8 @@
-import React from 'react';
 import {Container} from "react-bootstrap";
+
+import {CustomNavbar} from "shared/ui/navbar";
+
 import {navItems} from "../vars";
-import CustomNavbar from "../../../shared/ui/navbar/CustomNavbar";
 
 const TopHeader = () => {
     return (
@@ -11,4 +12,4 @@ const TopHeader = () => {
     );
 };
 
-export default TopHeader;
+export {TopHeader};

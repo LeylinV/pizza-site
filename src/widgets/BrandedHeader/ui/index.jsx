@@ -1,5 +1,5 @@
-import React from 'react';
-import BrandedNavbar from "../../../shared/ui/branded-navbar/BrandedNavbar";
+import {BrandedNavbar} from "shared/ui/branded-navbar";
+
 import {brandName, brandHref} from "../vars";
 
 const BrandedHeader = () => {
@@ -11,4 +11,4 @@ const BrandedHeader = () => {
     );
 };
 
-export default BrandedHeader;
+export {BrandedHeader};

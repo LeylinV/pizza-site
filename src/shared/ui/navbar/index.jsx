@@ -1,13 +1,12 @@
-import React from 'react';
+import {useNavigate} from "react-router-dom";
 import {Nav} from "react-bootstrap";
-import { useNavigate } from "react-router-dom";
-import {isAvialable} from "../../utils/isAvialable";
 
+import {isAvailable} from "shared/lib/isAvailable";
 
 const CustomNavbar = ({navs}) => {
     const navigate = useNavigate()
 
-    if (!(isAvialable(navs))){
+    if (!(isAvailable(navs))) {
         return <></>
     }
     return (
@@ -24,4 +23,4 @@ const CustomNavbar = ({navs}) => {
     );
 };
 
-export default CustomNavbar;
+export {CustomNavbar};

@@ -1,8 +1,7 @@
-import React from 'react';
-import {Container, Nav, Navbar} from "react-bootstrap";
 import {useNavigate} from "react-router-dom";
-import style from './BrandedNavbar.module.scss'
+import {Container, Nav, Navbar} from "react-bootstrap";
 
+import style from './BrandedNavbar.module.scss'
 
 const BrandedNavbar = ({brandName, brandHref}) => {
     const navigate = useNavigate()
@@ -30,4 +29,4 @@ const BrandedNavbar = ({brandName, brandHref}) => {
     );
 };
 
-export default BrandedNavbar;
+export {BrandedNavbar};
