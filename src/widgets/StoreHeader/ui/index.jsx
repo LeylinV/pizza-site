@@ -1,4 +1,4 @@
-import {Container} from "react-bootstrap";
+import {Container, Row, Col} from "react-bootstrap";
 
 import {CustomNavbar} from "shared/ui/navbar";
 import {BasketButton} from "features/BasketButton";
@@ -15,9 +15,11 @@ const StoreHeader = () => {
         setCategoriesWithAnchors(changeKeys(getAnchors(categories, 'value'), 'value'))
     },[])
     return (
-        <Container className={'justify-content-between'}>
-            <CustomNavbar navs={categoriesWithAnchors}/>
-            <BasketButton/>
+        <Container>
+            <Row className={'justify-content-between'}>
+                <Col xs="auto"><CustomNavbar navs={categoriesWithAnchors}/></Col>
+                <Col xs="auto"><BasketButton/></Col>
+            </Row>
         </Container>
     );
 };
