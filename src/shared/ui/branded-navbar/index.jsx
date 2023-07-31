@@ -8,7 +8,7 @@ const BrandedNavbar = ({brandName, brandHref}) => {
     const navigate = useNavigate()
 
     return (
-        <Navbar expand="lg" className="bg-body-tertiary">
+        <Navbar bg="white" expand="lg">
             <Container>
                 <LinkContainer to="/">
                     <Navbar.Brand href="#home" className="d-flex justify-content-center">
