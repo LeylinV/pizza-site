@@ -9,9 +9,9 @@ const DeveloperCard = ({developer}) => {
             <p className={'mb-0'}>{developer.position}</p>
             <h5>{developer.name}</h5>
             <Row className={'justify-content-md-center fs-2'}>
-                <Col xs='auto'><a className='text-white' href={developer.urls.gitHub}><FaGithubSquare /></a></Col>
-                <Col xs='auto'><a className='text-white' href={developer.urls.tg}><FaTelegram /></a></Col>
-                <Col xs='auto'><a className='text-white' href={developer.urls.gitLab}><FaSquareGitlab /></a></Col>
+                <Col xs='auto'><a className='text-white' href={developer.urls.gitHub} target="_blank"><FaGithubSquare /></a></Col>
+                <Col xs='auto'><a className='text-white' href={developer.urls.tg} target="_blank"><FaTelegram /></a></Col>
+                <Col xs='auto'><a className='text-white' href={developer.urls.gitLab} target="_blank"><FaSquareGitlab /></a></Col>
             </Row>
         </Col>
     );
