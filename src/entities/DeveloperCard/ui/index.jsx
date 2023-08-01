@@ -8,7 +8,7 @@ const DeveloperCard = ({developer}) => {
         <Col className={'text-center col-12 col-sm-4'}>
             <p className={'mb-0'}>{developer.position}</p>
             <h5>{developer.name}</h5>
-            <Row className={'justify-content-md-center fs-2'}>
+            <Row className={'justify-content-center fs-2'}>
                 <Col xs='auto'><a className='text-white' href={developer.urls.gitHub} target="_blank"><FaGithubSquare /></a></Col>
                 <Col xs='auto'><a className='text-white' href={developer.urls.tg} target="_blank"><FaTelegram /></a></Col>
                 <Col xs='auto'><a className='text-white' href={developer.urls.gitLab} target="_blank"><FaSquareGitlab /></a></Col>
