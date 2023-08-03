@@ -150,12 +150,13 @@ export const categories = [
         ]
     },
     {
-        name: 'pepperoni3',
-        title: 'Пепперони',
+        name: 'category3',
+        title: 'Категория 3',
         isAvailable: true,
         products: [
             {
-                name: 'Пепперони',
+                name: 'pepperoni3',
+                title: 'Пепперони',
                 price: {
                     fixed: true,
                     number: 419

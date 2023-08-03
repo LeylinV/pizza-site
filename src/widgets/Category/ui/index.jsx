@@ -9,11 +9,13 @@ const Category = ({category}) => {
             { category.isAvailable
                 &&
                 <Row>
-                    <Col xs='auto'>
-                        {category.products.map((product, index) => {
-                            return <CategoryProduct product={product} key={product.name} />
-                        })}
-                    </Col>
+                    {category.products.map((product, index) => {
+                        return <Col xs='12' md='6' lg='3'>
+                            <CategoryProduct
+                                product={product}
+                                key={product.name} />
+                        </Col>
+                    })}
                 </Row>
             }
         </Container>

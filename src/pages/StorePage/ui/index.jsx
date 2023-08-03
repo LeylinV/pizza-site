@@ -1,7 +1,7 @@
 import {BrandedHeader} from "widgets/BrandedHeader";
 import {StoreHeader} from "widgets/StoreHeader";
 import {categories} from "../vars";
-import {Category} from "../../../widgets/Category/ui";
+import {Category} from "widgets/Category";
 
 const StorePage = () => {
     return (
