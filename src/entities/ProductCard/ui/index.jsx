@@ -15,16 +15,14 @@ const ProductCard = (
             <Card.Body className={'d-flex flex-column justify-content-between'}>
                 <div>
                     <Card.Title>{product.title}</Card.Title>
-                    <Card.Text>
-                        <div className='fs-6 text-secondary'>
-                            {
-                                Boolean(product?.description)
-                                    ?
-                                    product.description
-                                    :
-                                    connectIngredients(product?.ingredients)
-                            }
-                        </div>
+                    <Card.Text className='fs-6 text-secondary'>
+                        {
+                            Boolean(product?.description)
+                                ?
+                                product.description
+                                :
+                                connectIngredients(product?.ingredients)
+                        }
                     </Card.Text>
                 </div>
                 <Row className={'justify-content-between pt-4'}>
