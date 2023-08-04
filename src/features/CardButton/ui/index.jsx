@@ -6,7 +6,7 @@ const CardButton = ({product}) => {
         <>
             {!product.isAvailable
                 ?
-                <CustomButton size="md" disabled variant="secondary" >Будет позже</CustomButton>
+                <CustomButton size="md" disabled variant="secondary" >Позже</CustomButton>
                 :
                 product.price.fixed
                     ?

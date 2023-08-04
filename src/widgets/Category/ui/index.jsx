@@ -10,7 +10,12 @@ const Category = ({category}) => {
                 &&
                 <Row>
                     {category.products.map((product, index) => {
-                        return <Col xs='12' md='6' lg='3'>
+                        return <Col
+                            xs='12'
+                            md='6'
+                            lg='3'
+                            className={'mb-3 mb-lg-0'}
+                        >
                             <CategoryProduct
                                 product={product}
                                 key={product.name} />
