@@ -8,7 +8,7 @@ export const categories = [
                 name: 'pepperoni1',
                 title: 'Пепперони',
                 price: {
-                    fixed: true,
+                    fixed: false,
                     number: 419
                 },
                 isAvailable: true,
@@ -83,7 +83,7 @@ export const categories = [
                 name: 'pepperoni2',
                 title: 'Пепперони',
                 price: {
-                    fixed: true,
+                    fixed: false,
                     number: 419
                 },
                 isAvailable: true,
@@ -158,7 +158,7 @@ export const categories = [
                 name: 'pepperoni3',
                 title: 'Пепперони',
                 price: {
-                    fixed: true,
+                    fixed: false,
                     number: 419
                 },
                 isAvailable: true,
@@ -233,7 +233,7 @@ export const categories = [
                 name: 'pepperoni4',
                 title: 'Пепперони',
                 price: {
-                    fixed: true,
+                    fixed: false,
                     number: 419
                 },
                 isAvailable: true,

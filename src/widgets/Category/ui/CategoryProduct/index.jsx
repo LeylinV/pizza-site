@@ -1,12 +1,13 @@
 import React from 'react';
 import {ProductCard} from "entities/ProductCard";
-import {CustomButton} from "../../../../shared/ui/button";
+import {CardButton} from "features/CardButton";
 
 const CategoryProduct = ({product}) => {
     return (
-        <ProductCard product={product}>
-            <CustomButton slot={'button'}>Текст</CustomButton>
-        </ProductCard>
+        <ProductCard
+            product={product}
+            cardFeature={<CardButton product={product}/>}
+        />
     );
 };
 

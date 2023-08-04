@@ -3,7 +3,12 @@ import {Card, Col, Row} from "react-bootstrap";
 import {connectIngredients} from "../lib/connectIngredients";
 import {getPrice} from "../lib/getPrice";
 
-const ProductCard = ({product}) => {
+const ProductCard = (
+    {
+        product,
+        cardFeature
+    }
+    ) => {
     return (
         <Card className={''}>
             <Card.Img variant="top" src={Boolean(product?.img) ? product?.img :'http://dummyimage.com/1024'} />
@@ -21,7 +26,7 @@ const ProductCard = ({product}) => {
                     </div>
                     <Row className={'justify-content-between pt-3'}>
                         <Col xs={'auto'} className={'fs-5 fw-medium'}>{getPrice(product.price)}</Col>
-                        <Col xs={'auto'}><slot name='button'></slot></Col>
+                        <Col xs={'auto'}>{cardFeature}</Col>
                     </Row>
                 </Card.Text>
             </Card.Body>
