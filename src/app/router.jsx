@@ -2,7 +2,7 @@ import {createBrowserRouter, createRoutesFromElements, Route} from "react-router
 
 import {Layout} from "pages/Layout"
 
-import {StorePage} from "pages/StorePage/ui"
+import {StorePage} from "pages/StorePage"
 
 const router = createBrowserRouter(
     createRoutesFromElements(
