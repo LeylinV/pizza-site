@@ -1,1 +1,0 @@
-export {MainSwiper} from "./ui"

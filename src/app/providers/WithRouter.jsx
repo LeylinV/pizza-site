@@ -2,7 +2,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 
 import {Layout} from "pages/Layout";
 
-import {StorePage} from "pages/StorePage/ui";
+import {StorePage} from "pages/StorePage";
 
 const WithRouter = () => {
     return(
