@@ -1,11 +1,15 @@
 import {useState, useEffect} from "react";
 
-const SwiperItem = () => {
-    const [] = useState();
+import './index.scss';
+
+const SwiperItem = ({imageSrc}) => {
 
     return (
-        <div>
-            <Image />
+        <div className={'swiper-item'}>
+            <picture className={'swiper-img'} draggable={false}>
+                <source type={'image/webp'} srcSet={imageSrc.webp}/>
+                <img alt="banner" src={imageSrc.jpg}/>
+            </picture>
         </div>
     )
 }
