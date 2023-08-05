@@ -9,16 +9,17 @@ const Category = ({category}) => {
             { category.isAvailable
                 &&
                 <Row>
-                    {category.products.map((product, index) => {
+                    {category.products.map((product) => {
                         return <Col
                             xs='12'
                             md='6'
                             lg='3'
                             className={'mb-3 mb-lg-0'}
+                            key={product.name}
                         >
                             <CategoryProduct
                                 product={product}
-                                key={product.name} />
+                            />
                         </Col>
                     })}
                 </Row>
