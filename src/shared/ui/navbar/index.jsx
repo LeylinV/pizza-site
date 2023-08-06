@@ -16,7 +16,7 @@ const CustomNavbar = ({navs}) => {
         >
             {navs.map(nav =>
                 <Nav.Item key={nav.eventKey}>
-                    <Nav.Link eventKey={nav.eventKey}>{nav.title}</Nav.Link>
+                    <Nav.Link href={nav.eventKey}>{nav.title}</Nav.Link>
                 </Nav.Item>
             )}
         </Nav>
