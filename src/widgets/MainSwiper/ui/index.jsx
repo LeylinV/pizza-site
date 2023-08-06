@@ -1,17 +1,56 @@
-import {useState, useEffect} from "react";
+import {useRef, useEffect} from 'react';
+import {register} from 'swiper/element/bundle';
 
-import {Swiper} from "features/swiper";
-import {Pagination} from "features/pagination";
+import {images} from '../vars'
 
-import {images} from '../vars';
+import './index.scss'
+
+register();
 
 const MainSwiper = () => {
+    const swiperElRef = useRef(null);
+
+    useEffect(() => {
+        const swiperEl = swiperElRef.current
+
+        const swiperParams = {
+            pagination: {
+                enable: true,
+                clickable: true
+            },
+            slidesPerView: 'auto',
+            centeredSlides: true,
+            spaceBetween: 30,
+            grabCursor: true,
+            autoplay: {
+                delay: 5000,
+                pauseOnMouseEnter: true
+            }
+        };
+
+        // now we need to assign all parameters to Swiper element
+        Object.assign(swiperEl, swiperParams);
+
+        // and now initialize it
+        swiperEl.initialize();
+    });
 
     return (
-        <div className={'swiper'} style={{width: '800px',   maxWidth: '100%', margin: '0 auto', padding: '20px 15px'}}>
-            <Swiper items={images}/>
-            <Pagination />
-        </div>
+        <section className={'main-swiper'} style={{padding: '20px 0'}}>
+            <swiper-container
+                init="false"
+                ref={swiperElRef}
+            >
+                {images.map((item, index) => {
+                    return (<swiper-slide key={index}>
+                        <picture>
+                            <source type={'image/webp'} srcSet={item.webp}/>
+                            <img alt="banner" src={item.jpg}/>
+                        </picture>
+                    </swiper-slide>)
+                })}
+            </swiper-container>
+        </section>
     )
 }
 

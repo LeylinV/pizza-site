@@ -1,1 +1,0 @@
-export {SwiperItem} from "./ui"
