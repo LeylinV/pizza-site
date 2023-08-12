@@ -1,0 +1,12 @@
+{
+  "targets": "> 0.25%, not dead",
+  "presets": [
+    "@babel/env",
+    [
+      "@babel/react",
+      {
+        "runtime": "automatic"
+      }
+    ]
+  ]
+}
