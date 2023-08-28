@@ -1,12 +1,6 @@
 {
     "compilerOptions": {
-        "baseUrl": "./src",
-        "module": "CommonJS",
-        "moduleResolution": "node",
-        "jsx": "react-jsx",
-        "allowJs": true,
-        "esModuleInterop": true,
-        "allowSyntheticDefaultImports": true
+        "baseUrl": "./src"
     },
     "include": ["src"],
     "exclude": ["node_modules", "build"]
