@@ -9,33 +9,33 @@ export const categories = [
                 title: 'Пепперони',
                 price: {
                     fixed: false,
-                    number: 419
+                    number: 419,
                 },
                 isAvailable: true,
                 info: {
                     size: '25 см',
                     dough: 'традиционные тесто',
-                    weight: '370 г'
+                    weight: '370 г',
                 },
                 ingredients: [
                     'пикантная пепперони',
                     'увеличенная порция моцареллы',
-                    'фирменный томатный соус'
+                    'фирменный томатный соус',
                 ],
-                img: ''
+                img: '',
             },
             {
                 name: 'ciplenok-barebkyu1',
                 title: 'Цыпленок барбекю',
                 price: {
                     fixed: true,
-                    number: 520
+                    number: 520,
                 },
                 isAvailable: false,
                 info: {
                     size: '30 см',
                     dough: 'традиционные тесто',
-                    weight: '370 г'
+                    weight: '370 г',
                 },
                 ingredients: [
                     'цыпленок',
@@ -43,36 +43,38 @@ export const categories = [
                     'соус барбекю',
                     'красный лук',
                     'моцарелла',
-                    'фирменный томатный соус'
+                    'фирменный томатный соус',
                 ],
-                img: ''
+                img: '',
             },
             {
                 name: 'molochniy-kokteyl-s-pecheniem-oreo1',
                 title: 'Молочный коктейль с печеньем Орео',
-                description: 'Как вкуснее есть печенье? Его лучше пить! Попробуйте молочный коктейль с мороженым и дробленым печеньем «Орео»',
+                description:
+                    'Как вкуснее есть печенье? Его лучше пить! Попробуйте молочный коктейль с мороженым и дробленым печеньем «Орео»',
                 price: {
                     fixed: true,
-                    number: 119
+                    number: 119,
                 },
                 isAvailable: true,
                 info: {
                     size: '0,3 л',
                 },
-                img: ''
+                img: '',
             },
             {
                 name: 'picca-iz-polovinok1',
                 title: 'Пицца из половинок',
-                description: 'Соберите свою пиццу 35 см с двумя разными вкусами',
+                description:
+                    'Соберите свою пиццу 35 см с двумя разными вкусами',
                 price: {
                     fixed: false,
-                    number: 640
+                    number: 640,
                 },
                 isAvailable: false,
-                img: ''
+                img: '',
             },
-        ]
+        ],
     },
     {
         name: 'category2',
@@ -84,33 +86,33 @@ export const categories = [
                 title: 'Пепперони',
                 price: {
                     fixed: false,
-                    number: 419
+                    number: 419,
                 },
                 isAvailable: true,
                 info: {
                     size: '25 см',
                     dough: 'традиционные тесто',
-                    weight: '370 г'
+                    weight: '370 г',
                 },
                 ingredients: [
                     'пикантная пепперони',
                     'увеличенная порция моцареллы',
-                    'фирменный томатный соус'
+                    'фирменный томатный соус',
                 ],
-                img: ''
+                img: '',
             },
             {
                 name: 'ciplenok-barebkyu2',
                 title: 'Цыпленок барбекю',
                 price: {
                     fixed: true,
-                    number: 520
+                    number: 520,
                 },
                 isAvailable: false,
                 info: {
                     size: '30 см',
                     dough: 'традиционные тесто',
-                    weight: '370 г'
+                    weight: '370 г',
                 },
                 ingredients: [
                     'цыпленок',
@@ -118,36 +120,38 @@ export const categories = [
                     'соус барбекю',
                     'красный лук',
                     'моцарелла',
-                    'фирменный томатный соус'
+                    'фирменный томатный соус',
                 ],
-                img: ''
+                img: '',
             },
             {
                 name: 'molochniy-kokteyl-s-pecheniem-oreo2',
                 title: 'Молочный коктейль с печеньем Орео',
-                description: 'Как вкуснее есть печенье? Его лучше пить! Попробуйте молочный коктейль с мороженым и дробленым печеньем «Орео»',
+                description:
+                    'Как вкуснее есть печенье? Его лучше пить! Попробуйте молочный коктейль с мороженым и дробленым печеньем «Орео»',
                 price: {
                     fixed: true,
-                    number: 119
+                    number: 119,
                 },
                 isAvailable: true,
                 info: {
                     size: '0,3 л',
                 },
-                img: ''
+                img: '',
             },
             {
                 name: 'picca-iz-polovinok2',
                 title: 'Пицца из половинок',
-                description: 'Соберите свою пиццу 35 см с двумя разными вкусами',
+                description:
+                    'Соберите свою пиццу 35 см с двумя разными вкусами',
                 price: {
                     fixed: false,
-                    number: 640
+                    number: 640,
                 },
                 isAvailable: false,
-                img: ''
+                img: '',
             },
-        ]
+        ],
     },
     {
         name: 'category3',
@@ -159,33 +163,33 @@ export const categories = [
                 title: 'Пепперони',
                 price: {
                     fixed: false,
-                    number: 419
+                    number: 419,
                 },
                 isAvailable: true,
                 info: {
                     size: '25 см',
                     dough: 'традиционные тесто',
-                    weight: '370 г'
+                    weight: '370 г',
                 },
                 ingredients: [
                     'пикантная пепперони',
                     'увеличенная порция моцареллы',
-                    'фирменный томатный соус'
+                    'фирменный томатный соус',
                 ],
-                img: ''
+                img: '',
             },
             {
                 name: 'ciplenok-barebkyu3',
                 title: 'Цыпленок барбекю',
                 price: {
                     fixed: true,
-                    number: 520
+                    number: 520,
                 },
                 isAvailable: false,
                 info: {
                     size: '30 см',
                     dough: 'традиционные тесто',
-                    weight: '370 г'
+                    weight: '370 г',
                 },
                 ingredients: [
                     'цыпленок',
@@ -193,36 +197,38 @@ export const categories = [
                     'соус барбекю',
                     'красный лук',
                     'моцарелла',
-                    'фирменный томатный соус'
+                    'фирменный томатный соус',
                 ],
-                img: ''
+                img: '',
             },
             {
                 name: 'molochniy-kokteyl-s-pecheniem-oreo3',
                 title: 'Молочный коктейль с печеньем Орео',
-                description: 'Как вкуснее есть печенье? Его лучше пить! Попробуйте молочный коктейль с мороженым и дробленым печеньем «Орео»',
+                description:
+                    'Как вкуснее есть печенье? Его лучше пить! Попробуйте молочный коктейль с мороженым и дробленым печеньем «Орео»',
                 price: {
                     fixed: true,
-                    number: 119
+                    number: 119,
                 },
                 isAvailable: true,
                 info: {
                     size: '0,3 л',
                 },
-                img: ''
+                img: '',
             },
             {
                 name: 'picca-iz-polovinok4',
                 title: 'Пицца из половинок',
-                description: 'Соберите свою пиццу 35 см с двумя разными вкусами',
+                description:
+                    'Соберите свою пиццу 35 см с двумя разными вкусами',
                 price: {
                     fixed: false,
-                    number: 640
+                    number: 640,
                 },
                 isAvailable: false,
-                img: ''
+                img: '',
             },
-        ]
+        ],
     },
     {
         name: 'category4',
@@ -234,33 +240,33 @@ export const categories = [
                 title: 'Пепперони',
                 price: {
                     fixed: false,
-                    number: 419
+                    number: 419,
                 },
                 isAvailable: true,
                 info: {
                     size: '25 см',
                     dough: 'традиционные тесто',
-                    weight: '370 г'
+                    weight: '370 г',
                 },
                 ingredients: [
                     'пикантная пепперони',
                     'увеличенная порция моцареллы',
-                    'фирменный томатный соус'
+                    'фирменный томатный соус',
                 ],
-                img: ''
+                img: '',
             },
             {
                 name: 'ciplenok-barebkyu4',
                 title: 'Цыпленок барбекю',
                 price: {
                     fixed: true,
-                    number: 520
+                    number: 520,
                 },
                 isAvailable: false,
                 info: {
                     size: '30 см',
                     dough: 'традиционные тесто',
-                    weight: '370 г'
+                    weight: '370 г',
                 },
                 ingredients: [
                     'цыпленок',
@@ -268,35 +274,37 @@ export const categories = [
                     'соус барбекю',
                     'красный лук',
                     'моцарелла',
-                    'фирменный томатный соус'
+                    'фирменный томатный соус',
                 ],
-                img: ''
+                img: '',
             },
             {
                 name: 'molochniy-kokteyl-s-pecheniem-oreo4',
                 title: 'Молочный коктейль с печеньем Орео',
-                description: 'Как вкуснее есть печенье? Его лучше пить! Попробуйте молочный коктейль с мороженым и дробленым печеньем «Орео»',
+                description:
+                    'Как вкуснее есть печенье? Его лучше пить! Попробуйте молочный коктейль с мороженым и дробленым печеньем «Орео»',
                 price: {
                     fixed: true,
-                    number: 119
+                    number: 119,
                 },
                 isAvailable: true,
                 info: {
                     size: '0,3 л',
                 },
-                img: ''
+                img: '',
             },
             {
                 name: 'picca-iz-polovinok4',
                 title: 'Пицца из половинок',
-                description: 'Соберите свою пиццу 35 см с двумя разными вкусами',
+                description:
+                    'Соберите свою пиццу 35 см с двумя разными вкусами',
                 price: {
                     fixed: false,
-                    number: 640
+                    number: 640,
                 },
                 isAvailable: false,
-                img: ''
+                img: '',
             },
-        ]
-    }
-]
+        ],
+    },
+];

@@ -1,10 +1,10 @@
 const getAnchors = (arr, key) => {
-    return arr.map(a => {
+    return arr.map((a) => {
         return {
             ...a,
-            [key]: '#' + a[key]
+            [key]: '#' + a[key],
         };
     });
-}
+};
 
-export {getAnchors};
+export { getAnchors };

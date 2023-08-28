@@ -5,8 +5,8 @@ export const developers = [
         urls: {
             gitHub: 'https://github.com/LeylinV',
             tg: 'https://t.me/LeylinV',
-            gitLab: 'https://gitlab.com/LeylinV'
-        }
+            gitLab: 'https://gitlab.com/LeylinV',
+        },
     },
     {
         name: 'kurasikirwa',
@@ -14,8 +14,8 @@ export const developers = [
         urls: {
             gitHub: 'https://github.com/kurasikirwa',
             tg: 'https://t.me/kurasikirwa',
-            gitLab: 'https://gitlab.com/kurasikirwa'
-        }
+            gitLab: 'https://gitlab.com/kurasikirwa',
+        },
     },
     {
         name: 'unktir',
@@ -23,7 +23,7 @@ export const developers = [
         urls: {
             gitHub: 'https://github.com/unktir',
             tg: 'https://t.me/unktir',
-            gitLab: 'https://gitlab.com/unktir'
-        }
-    }
-]
+            gitLab: 'https://gitlab.com/unktir',
+        },
+    },
+];

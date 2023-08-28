@@ -1,1 +1,1 @@
-export {DeveloperCard} from './ui'
+export { DeveloperCard } from './ui';

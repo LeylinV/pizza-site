@@ -1,5 +1,5 @@
 const isAvailable = (value) => {
-    return (Boolean(value))
-}
+    return Boolean(value);
+};
 
-export {isAvailable};
+export { isAvailable };

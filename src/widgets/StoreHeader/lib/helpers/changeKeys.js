@@ -1,11 +1,11 @@
 const changeKeys = (arr, key) => {
-    arr = arr.map(a => {
+    arr = arr.map((a) => {
         return {
             eventKey: a[key],
-            ...a
-        }
-    })
-    return arr
-}
+            ...a,
+        };
+    });
+    return arr;
+};
 
-export {changeKeys};
+export { changeKeys };

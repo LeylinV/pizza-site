@@ -1,9 +1,9 @@
 $nav-link-font-weight: 500;
 
-
 :root {
-  --color-dark: #242424;
-  --color-primary: #108ee9;
+    --color-dark: #242424;
+    --color-primary: #108ee9;
 }
 
+/* stylelint-disable-next-line no-invalid-position-at-import-rule */
 @import '~bootstrap/scss/bootstrap';

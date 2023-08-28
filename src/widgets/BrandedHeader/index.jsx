@@ -1,1 +1,1 @@
-export {BrandedHeader} from "./ui"
+export { BrandedHeader } from './ui';

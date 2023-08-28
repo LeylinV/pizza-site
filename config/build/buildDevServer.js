@@ -11,5 +11,5 @@ export function buildDevServer(options) {
                 errors: true,
             },
         },
-    }
+    };
 }

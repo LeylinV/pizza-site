@@ -1,5 +1,4 @@
 const getPrice = (price) => {
-    const priceString = price.fixed? `${price.number} ₽` : `от ${price.number} ₽`
-    return priceString
-}
-export {getPrice}
+    return price.fixed ? `${price.number} ₽` : `от ${price.number} ₽`;
+};
+export { getPrice };

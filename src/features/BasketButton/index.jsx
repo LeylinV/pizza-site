@@ -1,1 +1,1 @@
-export {BasketButton} from "./ui"
+export { BasketButton } from './ui';

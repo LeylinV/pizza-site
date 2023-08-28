@@ -1,6 +1,6 @@
-import {BrandedNavbar} from "shared/ui/branded-navbar";
-
-import {brandName, brandHref} from "../vars";
+import React from 'react';
+import { BrandedNavbar } from 'shared/ui/branded-navbar';
+import { brandName, brandHref } from '../vars';
 
 const BrandedHeader = () => {
     return (
@@ -11,4 +11,4 @@ const BrandedHeader = () => {
     );
 };
 
-export {BrandedHeader};
+export { BrandedHeader };

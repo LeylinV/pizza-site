@@ -1,24 +1,30 @@
-import {useNavigate} from "react-router-dom";
+import PropTypes from 'prop-types';
+import React from 'react';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
-import {Container, Nav, Navbar} from "react-bootstrap";
+import { useNavigate } from 'react-router-dom';
+import style from './BrandedNavbar.module.scss';
 
-import style from './BrandedNavbar.module.scss'
-
-const BrandedNavbar = ({brandName, brandHref}) => {
-    const navigate = useNavigate()
+const BrandedNavbar = ({ brandName, brandHref }) => {
+    const navigate = useNavigate();
 
     return (
-        <Navbar bg="white" expand="lg">
+        <Navbar
+            bg="white"
+            expand="lg"
+        >
             <Container>
                 <LinkContainer to="/">
-                    <Navbar.Brand href="#home" className="d-flex justify-content-center">
+                    <Navbar.Brand
+                        href="#home"
+                        className="d-flex justify-content-center"
+                    >
                         <img
                             alt={brandName}
                             src={brandHref}
-
-                            className={`d-inline-block align-top ${style.brandLogo}`}
+                            className={`d-inline-block align-top ${style['brand-logo']}`}
                         />{' '}
-                        <span className={style.brandText}>{brandName}</span>
+                        <span className={style['brand-text']}>{brandName}</span>
                     </Navbar.Brand>
                 </LinkContainer>
                 <Nav
@@ -32,4 +38,9 @@ const BrandedNavbar = ({brandName, brandHref}) => {
     );
 };
 
-export {BrandedNavbar};
+BrandedNavbar.propTypes = {
+    brandName: PropTypes.string,
+    brandHref: PropTypes.string,
+};
+
+export { BrandedNavbar };

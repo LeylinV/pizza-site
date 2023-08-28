@@ -1,14 +1,19 @@
+import PropTypes from 'prop-types';
 import React from 'react';
-import {ProductCard} from "entities/ProductCard";
-import {CardButton} from "features/CardButton";
+import { CardButton } from 'features/CardButton';
+import { ProductCard } from 'entities/ProductCard';
 
-const CategoryProduct = ({product}) => {
+const CategoryProduct = ({ product }) => {
     return (
         <ProductCard
             product={product}
-            cardFeature={<CardButton product={product}/>}
+            cardFeature={<CardButton product={product} />}
         />
     );
+};
+
+CategoryProduct.propTypes = {
+    product: PropTypes.object,
 };
 
 export default CategoryProduct;

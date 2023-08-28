@@ -1,0 +1,11 @@
+# Ignore artifacts:
+
+# dependencies
+/node_modules
+
+# production
+/build
+
+# config
+package-lock.json
+package.json
