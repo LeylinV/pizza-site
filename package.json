@@ -32,7 +32,8 @@
     "lint:js": "eslint .",
     "lint:js:fix": "eslint . --fix",
     "lint:scss": "npx stylelint \"**/*.scss\"",
-    "lint:scss:fix": "npx stylelint \"**/*.scss\" --fix"
+    "lint:scss:fix": "npx stylelint \"**/*.scss\" --fix",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@babel/cli": "^7.22.10",
@@ -55,6 +56,8 @@
     "eslint-plugin-react-redux": "^4.0.0",
     "globals": "^13.21.0",
     "html-webpack-plugin": "^5.5.3",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
     "mini-css-extract-plugin": "^2.7.6",
     "postcss-loader": "^7.3.3",
     "postcss-preset-env": "^9.1.1",
