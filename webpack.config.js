@@ -7,7 +7,7 @@ const __dirname = path.dirname(__filename);
 
 export default (env) => {
     const paths = {
-        entry: path.resolve(__dirname, 'src', 'index.js'),
+        entry: path.resolve(__dirname, 'src', 'index.jsx'),
         build: path.resolve(__dirname, 'build'),
         html: path.resolve(__dirname, 'public', 'index.html'),
         src: path.resolve(__dirname, 'src'),
