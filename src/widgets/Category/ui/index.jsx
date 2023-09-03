@@ -41,7 +41,7 @@ Category.propTypes = {
         name: PropTypes.string,
         title: PropTypes.string,
         isAvailable: PropTypes.bool,
-        products: PropTypes.object,
+        products: PropTypes.array,
     }),
 };
 
