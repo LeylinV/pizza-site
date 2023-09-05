@@ -6,13 +6,19 @@ import { FaSquareGitlab } from 'react-icons/fa6';
 
 const DeveloperCard = ({ developer }) => {
     return (
-        <Col className={'text-center col-12 col-sm-4'}>
-            <p className={'mb-0'}>{developer.position}</p>
-            <h5>{developer.name}</h5>
+        <Col
+            className={
+                'd-flex flex-column justify-content-between col-12 col-sm-4'
+            }
+        >
+            <Row className={'text-center'}>
+                <h5>{developer.name}</h5>
+                <p className={'mb-0 fw-light'}>{developer.position}</p>
+            </Row>
             <Row className={'justify-content-center fs-2'}>
                 <Col xs="auto">
                     <a
-                        className="text-white"
+                        className="link-light"
                         href={developer.urls.gitHub}
                         target="_blank"
                         rel="noreferrer"
@@ -22,7 +28,7 @@ const DeveloperCard = ({ developer }) => {
                 </Col>
                 <Col xs="auto">
                     <a
-                        className="text-white"
+                        className="link-light"
                         href={developer.urls.tg}
                         target="_blank"
                         rel="noreferrer"
@@ -32,7 +38,7 @@ const DeveloperCard = ({ developer }) => {
                 </Col>
                 <Col xs="auto">
                     <a
-                        className="text-white"
+                        className="link-light"
                         href={developer.urls.gitLab}
                         target="_blank"
                         rel="noreferrer"
