@@ -5,9 +5,11 @@ import { navItems } from '../vars';
 
 const TopHeader = () => {
     return (
-        <Container>
-            <CustomNavbar navs={navItems} />
-        </Container>
+        <header>
+            <Container>
+                <CustomNavbar navs={navItems} />
+            </Container>
+        </header>
     );
 };
 

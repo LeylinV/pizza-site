@@ -5,7 +5,7 @@ import { developers } from '../vars';
 
 const MainFooter = () => {
     return (
-        <div className={'bg-dark text-white'}>
+        <footer className={'bg-dark text-white'}>
             <Container>
                 <h4 className={'mt-4 mb-3 text-center'}>Наша команда</h4>
                 <Row>
@@ -19,7 +19,7 @@ const MainFooter = () => {
                 <hr />
                 <h5 className={'text-center pb-2'}>2023</h5>
             </Container>
-        </div>
+        </footer>
     );
 };
 

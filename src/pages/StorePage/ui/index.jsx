@@ -7,7 +7,7 @@ import { categories } from '../vars';
 
 const StorePage = () => {
     return (
-        <>
+        <main className={'flex-grow-1'}>
             <BrandedHeader />
             <MainSwiper />
             <StoreHeader />
@@ -17,8 +17,8 @@ const StorePage = () => {
                     key={category.name}
                 />
             ))}
-        </>
+        </main>
     );
 };
 
-export { StorePage };
+export default StorePage;
