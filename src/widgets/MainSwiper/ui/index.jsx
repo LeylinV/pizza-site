@@ -39,7 +39,7 @@ const MainSwiper = () => {
         <swiper-container
             init="false"
             ref={swiperElRef}
-            class={'py-4'}
+            class={'mt-4'}
         >
             {images.map((item, index) => {
                 return (
