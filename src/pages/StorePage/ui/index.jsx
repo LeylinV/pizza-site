@@ -9,8 +9,8 @@ const StorePage = () => {
     return (
         <main className={'flex-grow-1'}>
             <BrandedHeader />
-            <MainSwiper />
             <StoreHeader />
+            <MainSwiper />
             {categories.map((category) => (
                 <Category
                     category={category}

@@ -5,11 +5,12 @@ import CategoryProduct from './CategoryProduct';
 
 const Category = ({ category }) => {
     return (
-        <Container>
-            <h3
-                className={'my-5'}
-                id={category.name}
-            >
+        <Container
+            id={category.name}
+            className={'d-flex flex-wrap'}
+            style={{ scrollMarginTop: '56px' }}
+        >
+            <h3 className={'my-5 w-100'}>
                 {category.title}{' '}
                 {!category.isAvailable && (
                     <span className={'text-secondary fs-4'}>Скоро!</span>

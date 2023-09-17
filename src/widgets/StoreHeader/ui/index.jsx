@@ -18,7 +18,7 @@ const StoreHeader = () => {
     return (
         <div
             ref={ref}
-            className={`position-sticky top-0 z-1 py-2 bg-white ${
+            className={`position-sticky top-0 z-2 py-2 bg-white ${
                 isSticky && 'shadow'
             }`}
         >
