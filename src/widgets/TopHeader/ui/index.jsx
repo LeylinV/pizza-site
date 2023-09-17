@@ -11,7 +11,7 @@ const TopHeader = () => {
     }
 
     return (
-        <header className={'border-bottom'}>
+        <header className={'border-bottom py-1'}>
             <Container>
                 <CustomNavbar navs={navItems} />
             </Container>
