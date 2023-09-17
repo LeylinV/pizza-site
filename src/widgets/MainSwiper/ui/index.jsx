@@ -36,32 +36,28 @@ const MainSwiper = () => {
     });
 
     return (
-        <section
-            className={'main-swiper'}
-            style={{ padding: '20px 0' }}
+        <swiper-container
+            init="false"
+            ref={swiperElRef}
+            class={'py-4'}
         >
-            <swiper-container
-                init="false"
-                ref={swiperElRef}
-            >
-                {images.map((item, index) => {
-                    return (
-                        <swiper-slide key={index}>
-                            <picture>
-                                <source
-                                    type={'image/webp'}
-                                    srcSet={item.webp}
-                                />
-                                <img
-                                    alt="banner"
-                                    src={item.jpg}
-                                />
-                            </picture>
-                        </swiper-slide>
-                    );
-                })}
-            </swiper-container>
-        </section>
+            {images.map((item, index) => {
+                return (
+                    <swiper-slide key={index}>
+                        <picture>
+                            <source
+                                type={'image/webp'}
+                                srcSet={item.webp}
+                            />
+                            <img
+                                alt="banner"
+                                src={item.jpg}
+                            />
+                        </picture>
+                    </swiper-slide>
+                );
+            })}
+        </swiper-container>
     );
 };
 
